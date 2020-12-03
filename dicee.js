@@ -3,9 +3,9 @@ var randomNumber1 = Math.ceil(Math.random()*(6));
 
 var randomNumber2 = Math.ceil(Math.random()*(6));
 
-var diceimg1 = "/Users/abruce3411/Desktop/Dicee Challenge - Starting Files/images/dice"+randomNumber1+".png";
+var diceimg1 = "/images/dice"+randomNumber1+".png";
 
-var diceimg2 = "/Users/abruce3411/Desktop/Dicee Challenge - Starting Files/images/dice"+randomNumber2+".png";
+var diceimg2 = "/images/dice"+randomNumber2+".png";
 
 document.querySelector(".img1").setAttribute("src", diceimg1);
 
